@@ -77,6 +77,7 @@ Style {
         readonly property real shineStep: 0.05
         readonly property real smallestAxis: Math.min(control.width, control.height)
         readonly property real outerRecessPercentage: 0.11
+        // HERE
         readonly property color offColor: Qt.rgba(0.13, 0.13, 0.13)
         readonly property color baseColor: control.active ? control.color : offColor
 
